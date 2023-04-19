@@ -1,3 +1,7 @@
 # Exploration and Analysis of Memory-aware Semi-Static Scheduling Algorithms
 
 Our project aims to explore the scheduling of parallel tasks. More specifically, we aim to study parallel scheduling algorithms that take in account both task execution time and memory accesses. Our project will have two main objectives. First, we will construct a framework/process for testing the effectiveness of various scheduling algorithms through actual program simulation as well as multi-core cache memory simulations. Secondly, we will use this framework to analyze a few scheduling algorithms/metrics in order to characterize their performance. Ideally, the system we would propose would first perform an initial task scheduling based on static parameters for any arbitrary parallel program. Memory activity (reads/writes) and overall execution time would be tracked for each task while they are being executed. Then, at certain synchronization points in the parallel program, the system would perform synchronization, and reschedule the tasks based on the profiled memory accesses and execution time. This would hopefully allow us to reduce the overhead of memory accesses and increase workload balancing, while minimizing the performance overhead. An actual implementation of such a system in real time for a real program would be a stretch goal of the project. 
+
+Proposal [Here](https://github.com/yingyee0111/memory-aware-scheduling/blob/main/Proposal.pdf)
+
+Milestone Report [Here](https://github.com/yingyee0111/memory-aware-scheduling/blob/main/Milestone%20Report.pdf)
