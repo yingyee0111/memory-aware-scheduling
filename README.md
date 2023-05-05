@@ -25,3 +25,8 @@ Milestone Report [Here](https://github.com/yingyee0111/memory-aware-scheduling/b
     ```
     gcc -o CacheSimulate -O0 cache.cpp -lstdc++
     ```
+
+### `/PinTool`
+- Contains custom script based on the Intel Pin tool which enabled us to generate instruction count and memory traces for each thread in a multithreaded program
+- Based on example programs provided by the Intel Pin tool install
+- Tested with Pin 3.27 on Linux
