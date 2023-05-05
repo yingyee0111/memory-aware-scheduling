@@ -6,6 +6,8 @@ Proposal [Here](https://github.com/yingyee0111/memory-aware-scheduling/blob/main
 
 Milestone Report [Here](https://github.com/yingyee0111/memory-aware-scheduling/blob/main/Milestone%20Report.pdf)
 
+Final Report [Here](https://github.com/yingyee0111/memory-aware-scheduling/blob/main/Final%20Report.pdf)
+
 ## Getting Started
 ### `/schedulers`
 - Implementation of scheduling algorithms can be found in the python files here. 
